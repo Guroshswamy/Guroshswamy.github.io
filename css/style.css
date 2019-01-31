@@ -1,0 +1,46 @@
+@font-face {
+font-family:"Alfa Slab";
+src: url('../font/AlfaSlabOne-Regular.ttf');
+
+}
+
+@media only screen and (min-width: 1224px) {
+    body {
+        background-image: url("../images/background.jpeg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        font-family: Arial, 'Times New Roman', Times, serif;
+        margin: 0 350px 0 350px;
+    }
+
+
+video{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+}    
+
+.top {
+    background-image: url("../images/companylogoBG.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 170%;
+    padding: 20px;
+    margin-top: 0;
+}
+
+
+.top h1 {
+    text-align: center;
+    color:#ffffff;
+    font-size: 333%;
+    text-shadow: 3px 3px #000000;
+    font-family: 'Alfa SLab', sans-serif;
+}
+
+
+
+
