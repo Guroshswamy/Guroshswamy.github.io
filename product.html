@@ -7,7 +7,7 @@ product catalog
 
 
 
-<1DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -16,7 +16,7 @@ product catalog
 <meta name="description" content="Everything gaming related can be found here come and visit us">
 
 <meta name="author" content="Roshan Lalji">
-<meta name="viewport" content="initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
                
 <title>Product Catalog</title>
 
@@ -28,65 +28,74 @@ product catalog
                                                                                                                                                                   
                                                                                                                                                                                                                                                                               
 <link rel="stylesheet" href="css/style.css">
-                                                                                      
-                                                     
-                                                                                                                                                                                                                                                                           
-                                                                                          
-                
+ 
 </head>
+
+
+
 <body>
+    <main id="content">
 <video autoplay muted loop src="movie/background.mp4"></video>    
 <section class="product-page"></section>
 
 <header class="product-page-header">
-    <h1><a href="https://roshanlalji.nl/">COMPANY NAME</a></h1>
+<a href="index.html"><h1>COMPANY NAME</h1></a>
 </header>
-<nav class="product-nav">
-    <a id=hamburger-menu></a>
-    <input type="checkbox" role="button">
+<nav class="show_nav1">
+        <aside id="hamburger_menu_toggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+            
+            <ul id="hamburger_menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="http://www.blogger.com">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </aside>
+    </nav>
     
-<ul id="link list">
-    <li>
-        <a href="">Home</a>
-    </li>
-    <li>
-        <a href="">Blog</a>
-    </li>
-    <li>
-        <a href="">Contact</a>
-    </li>
-    
-</ul>    
-</nav>
-<section class="grid-layout">
-<article class="products-grid">
+    <nav class="show_nav2">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="http://www.blogger.com">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
 
-<h2 id="catalog">product catalog</h2>
-<h2>products</h2>
+    <section class="page_title">
+        <h2 class="show_title1">product catalog</h2>
+        <h2 class="show_title2">products</h2>
+    </section>
 
-</article>
 
-<section class="images">
-    <a href="img/product1.jpg" target="_blank" id="pic1"></a>
-    <a href="img/product2.jpg" target="_blank" id="pic2"></a>
-    <a href="img/product3.jpg" target="_blank" id="pic3"></a>
-    <a href="img/product4.jpg" target="_blank" id="pic4"></a>
-    <a href="img/product5.jpg" target="_blank" id="pic5"></a>
-    <a href="img/product6.jpg" target="_blank" id="pic6"></a>
-    <a href="img/product7.jpg" target="_blank" id="pic7"></a>
-    <a href="img/product8.jpg" target="_blank" id="pic8"></a>
-    <a href="img/product9.jpg" target="_blank" id="pic9"></a>
-    <a href="img/product10.jpg" target="_blank" id="pic10"></a>
-    <a href="img/product11.jpg" target="_blank" id="pic11"></a>
-    <a href="img/product12.jpg" target="_blank" id="pic12"></a>
+<article class="flex-container">
+        <h3>product items</h3>
+            <section class="product1"><h4>product 1</h4></section>
+            <section class="product2"><h4>product 2</h4></section>
+            <section class="product3"><h4>product 3</h4></section>
+            <section class="product4"><h4>product 4</h4></section>
+            <section class="product5"><h4>product 5</h4></section>
+            <section class="product6"><h4>product 6</h4></section>
+            <section class="product7"><h4>product 7</h4></section>
+            <section class="product8"><h4>product 8</h4></section>
+            <section class="product9"><h4>product 9</h4></section>
+            <section class="product10"><h4>product 10</h4></section>
+            <section class="product11"><h4>product 11</h4></section>
+            <section class="product12"><h4>product 12</h4></section>
+    </article>
 
-</section>
- 
-</section>
-<footer>
-    <h3>&copy; 2018 - Roshan Lalji - Inholland</h3>
-</footer>        
-</body>    
+    <video autoplay loop muted>
+        <source src="movie/background.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <footer>
+            <p>&copy; 2018 - Roshan Lalji - Inholland<p>
+    </footer>
+</main>
+</body>
 </html>
 
 

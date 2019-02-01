@@ -23,42 +23,47 @@ More information-->
     <link rel="" href="" type="">
     <link rel="" href="" type="">
     
-    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- favicon komt hier-->
     
     
 </head>  
    
 <body>
+	<main id="content">
 <video autoplay muted loop src="movie/background.mp4"></video>
    
    
    
 <header class="main">
- <h1><a href="https://www.roshanlalji.nl/">COMPANY NAME</a></h1>
+ <h1><a href=index.html>COMPANY NAME</a></h1>
 </header>
      
      
-<nav class=Navbar>
-   <a id="hamburger-menu"></a>
-    <input type="checkbox" rol="button">
-    
-    <ul id="nav">
-       <li>
-           <a href="https://www.roshanlalji.nl">Products</a>
-       </li>
-       
-       <li>
-           <a href="https://www.Thetechwizz.com">Blog</a>
-       </li>
-       
-       <li>
-           <a href="https://www.blogger.com">Contact</a>
-       </li>
-        
-    </ul>
-</nav>  
+<nav class="show_nav1">
+		<aside id="hamburger_menu_toggle">
+			<input type="checkbox" />
+			<span></span>
+			<span></span>
+			<span></span>
+			
+			<ul id="hamburger_menu">
+			   <li><a href="index.html">Home</a></li>
+			   <li><a href="product.html">Products</a></li>
+			   <li><a href="http://www.blogger.com">Blog</a></li>
+			</ul>
+		</aside>
+	</nav>
+	
+	<nav class="show_nav2">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="product.html">Products</a></li>
+			<li><a href="http://www.blogger.com">Blog</a></li>
+		</ul>
+	</nav>
 <!--Make a section around the form-->
-<section class="contact-form">
+<section class="contact_form">
 <article class="bar">
     <h2>Contact</h2>
 </article>
@@ -98,9 +103,11 @@ More information-->
 	<input
 			type="submit"
 			value="Submit"
+			class="button"
 	/>
 </form>
 </section>
 <footer><h3>&copy; 2018 - Roshan Lalji - Inholland</h3></footer>
+</main>
     </body>
 </html>
