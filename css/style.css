@@ -3,7 +3,7 @@ font-family:"Alfa Slab";
 src: url('../font/AlfaSlabOne-Regular.ttf');
 
 }
-
+/***Media Queries Desk ***/
 @media only screen and (min-width: 1224px) {
     body {
         background-image: url("../img/background.jpeg");
@@ -13,7 +13,7 @@ src: url('../font/AlfaSlabOne-Regular.ttf');
         margin: 0 350px 0 350px;
     }
 
-
+/**** video positioning *****/
 video{
     position: fixed;
     top: 50%;
@@ -23,7 +23,7 @@ video{
     z-index: -100;
     transform: translateX(-50%) translateY(-50%);
 }    
-
+/*** company logo  ***/
 .top {
     background-image: url("../img/companylogoBG.jpg");
     background-repeat: no-repeat;
@@ -101,20 +101,20 @@ li a {
     text-decoration: none;
 }
 
-/* hide html elements */
+/*** show_hide html *****/
 .show_nav1, .show_title2 {
     display: none;
 }
 
 
-/* styling of sections */
+/*** styling of the sections ****/
 .entertainment {
     background-color:#2899FB;
     margin: 0px;
     padding: 10px;
 }
 
-/* styling of header in section */
+/**** styling of header inside the section ****/
 .entertainment h2 {
     color: #ffffff;
     text-align: center;
@@ -124,7 +124,7 @@ li a {
     margin: 0px;
 }
 
-    /* styling of images */
+    /**** styling of the images ****/
     img {
         width: 100%;
         height: 348px;
@@ -132,7 +132,7 @@ li a {
     }
 
 
-        /* styling of footer */
+        /**** styling of the footer ****/
         footer {
             background-color: #000000; 
             padding-top: 10px;
@@ -141,7 +141,7 @@ li a {
         }
 
 
-         /* styling of text in foorter */
+         /****** text in footer P tag ****/
     footer p {
         color: #ffffff;
         text-align: center;
@@ -151,7 +151,7 @@ li a {
     }   
 
     
-        /* styling of page title in section */
+        /**** styling of page title inside the section *****/
 
         .page_title {
             background-color:#2899FB;
@@ -159,7 +159,7 @@ li a {
         }
 
 
-         /* styling page title */
+         /***** Styling the page title ******/
 
     .page_title h2 {
         color: #ffffff;
@@ -191,7 +191,7 @@ li a {
     }
 
 
-    /* start of styling of product images */
+    /*** Images in grid lay ***/
     .product1 {
         background-image: url("../img/product1.jpg");   
         background-size: 100% 100%;
@@ -240,12 +240,12 @@ li a {
         background-image: url("../img/product12.jpg");   
         background-size: 100% 100%;
     }
-    /* end of styling product images */
+    
 
 
 
 
-        /* styling of form */
+        /****Form Styling ****/
 .contact_form {
     background-color: #ffffff;
     padding-top: 1px;
@@ -497,7 +497,7 @@ li a {
     }
 
 
-        /* start of styling of product images */
+        /*** Images in grid lay ***/
         .product1 {
             background-image: url("../img/product1.jpg");   
             background-size: 100% 100%;
@@ -546,10 +546,10 @@ li a {
             background-image: url("../img/product12.jpg");   
             background-size: 100% 100%;
         }
-        /* end of styling product images */
+        /
 
 
-            /* styling of form */
+            /**** Form styling****/
     .contact_form {
         background-color: #ffffff;
         padding-top: 1px;
@@ -700,9 +700,9 @@ li a {
 
 
 
-            /* begin menu */
+            /*** Hamburger Menu***/
   
-            #hamburger_menu_toggle
+            #Hamburger_menu_switch
             {
                 display: block;
                 position: relative;
@@ -891,7 +891,7 @@ li a {
         }
 
 
-        /* start of styling of product images */
+        /*** Images in grid lay ***/
     .product1 {
         background-image: url("../img/product1.jpg");   
         background-size: 100% 100%;
@@ -940,7 +940,7 @@ li a {
         background-image: url("../img/product12.jpg");   
         background-size: 100% 100%;
     }
-    /* end of styling product images */
+    
 
 
 
@@ -956,7 +956,7 @@ li a {
             margin-top: 45px;
         }
         
-        /* styling of h5 tag in form */
+        /**** h5 tag in form ****/
         .contact_form h5 {
             color: #707070;
             margin-left: 20px;
@@ -966,14 +966,14 @@ li a {
         }
 
 
-            /* styling of drop down menu */
+            /**** Drop Down general style ****/
     .drop_down {
         margin: 0px 0px 15px 2px;
         padding-top: 10px;
         padding-bottom: 20px;
     }
     
-    /* styling of text in drop down menu */
+    /**** Text Dropdown ****/
     .drop_down select {
         padding: 3px 0 3px 0px;
         width: 100%;
@@ -983,7 +983,7 @@ li a {
         background-color: #ffffff;
     }
     
-    /* styling of label of drop down menu */
+    /**** Drop Down Menu ***/
     .drop_down label {
         color: #AAAAAA;
         font-size: 116%;
@@ -991,7 +991,7 @@ li a {
 
 
 
-        /* styling of input fields */
+        /***** Input fields *****/
         .contactFormFieldset {
             margin-bottom: 15px;
         }
