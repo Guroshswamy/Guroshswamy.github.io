@@ -571,14 +571,14 @@ li a {
             display: none;
         }
 
-            /* styling of drop down menu */
+            /**** styling of the drop down menu ****/
     .drop_down {
         margin: 0px 0px 15px 2px;
         padding-top: 10px;
         padding-bottom: 20px;
     }
 
-        /* styling of text in drop down menu */
+        /**** styling of text in the drop down menu ****/
         .drop_down select {
             padding: 3px 0 3px 0px;
             width: 99%;
@@ -588,13 +588,13 @@ li a {
             background-color: #ffffff;
         }
 
-            /* styling of label of drop down menu */
+            /**** styling of label of drop down menu ****/
     .drop_down label {
         color: #AAAAAA;
         font-size: 166%;
     }
 
-        /* styling of input fields */
+        /**** styling of the input fields ******/
         .contactFormFieldset {
             margin-bottom: 15px;
         }
@@ -636,7 +636,7 @@ li a {
        
     }  
 
-/* end of media query tablet */
+/**** Beginning of the mobile Query ****/
 
 @media only screen and (min-width: 300px) and (max-width: 480px) {
 
@@ -646,13 +646,13 @@ li a {
     }
 
 
-    /* styling of video */
+    /*** styling of video ***/
     video {
         display: none;
     }
     
 
-        /* styling of background image in top of the webpage */
+        /**** styling of background image in top of the webpage ****/
         .top {
             background-image: url("../images/companylogoBG.jpg");
             background-repeat: no-repeat;
@@ -662,7 +662,7 @@ li a {
         }
 
 
-       /* styling header*/
+       /**** styling header****/
        .top h1 {
         text-align: center;
         color:#ffffff;
@@ -944,7 +944,7 @@ li a {
 
 
 
-        /* styling of form */
+        /**** styling of the  form ***/
         .contact_form {
             background-color: #ffffff;
             padding-top: 1px;
